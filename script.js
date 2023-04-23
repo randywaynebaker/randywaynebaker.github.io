@@ -4,7 +4,7 @@ const closeButton = popup.querySelector(".modal-close");
 
 sendEmailsButton.addEventListener('click', () => {
   // Send a request through the webhook
-  fetch('https://hook.us1.make.com/yfmdv94dyc0gpctlfvn1yg2ktbh1uxtm', {
+  fetch('', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
